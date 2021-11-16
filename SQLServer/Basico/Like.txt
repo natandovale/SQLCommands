@@ -1,0 +1,14 @@
+=>Comeca com A
+SELECT TOP 100
+FROM [Curso]
+WHERE [Nome] LIKE 'A%'
+
+=>Termina com A
+SELECT TOP 100
+FROM [Curso]
+WHERE [Nome] LIKE '%A'
+
+=>Contem A
+SELECT TOP 100
+FROM [Curso]
+WHERE [Nome] LIKE '%A%'

@@ -1,0 +1,9 @@
+DELETE FROM 
+    [Curso]
+WHERE 
+    [CategoriaId] = 4
+
+DELETE FROM 
+    [Categoria]
+WHERE 
+    [Id] = 4

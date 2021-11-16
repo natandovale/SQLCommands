@@ -1,0 +1,24 @@
+=>Pega o menor valor
+SELECT TOP 100
+    MIN([Id])
+FROM [Categoria]
+
+=>Pega o maior valor
+SELECT TOP 100
+    MAX([Id])
+FROM [Categoria]
+
+=>Conta quantos elementos existe
+SELECT TOP 100
+    COUNT([Id])
+FROM [Categoria]
+
+=>Media
+SELECT TOP 100
+    AVG([Id])
+FROM [Categoria]
+
+=>Soma
+SELECT TOP 100
+    SUM([Id])
+FROM [Categoria]
