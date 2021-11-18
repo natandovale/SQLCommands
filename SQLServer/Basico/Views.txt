@@ -1,3 +1,5 @@
+=>Um "Snapshopt" uma "foto" de uma query
+CREATE OR ALTER VIEW vwContagemCursoPorCategoria AS
 SELECT TOP 100 
     [Categoria].[Id],
     [Categoria].[Nome],
@@ -10,3 +12,7 @@ GROUP BY
      [Curso].[CategoriaId]
 HAVING
      COUNT([Curso].[CategoriaId]) > 2
+
+=>chamando-a
+SELECT * FROM vwContagemCursoPorCategoria
+WHERE Id = 1

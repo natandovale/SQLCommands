@@ -1,0 +1,2 @@
+DECLARE @Id INT
+SET @Id = 9

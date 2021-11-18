@@ -1,0 +1,9 @@
+=>Pedaços de codigo que podemos depois chamar, pode ser create, update, select etc
+CREATE OR ALTER PROCEDURE [spListCourse] AS
+	SELECT * FROM [Curso]
+
+=>Chamando-a
+EXEC [spListCourse]
+
+=>Excluindo
+DROP PROCEDURE [spListCourse]
