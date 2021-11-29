@@ -1,2 +1,4 @@
 ALTER TABLE sink ADD bubbles INTEGER;
 ALTER TABLE sink DROP COLUMN bubbles;
+ALTER TABLE dbo.doc_exy ALTER COLUMN column_a DECIMAL (5, 2);  
+GO  
