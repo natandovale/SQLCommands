@@ -1,0 +1,5 @@
+BEGIN TRANSACTION
+    UPDATE [Curso]
+    SET [Nome] = 'Angular'
+    WHERE [Id] = 3
+COMMIT/ROLLBACK
