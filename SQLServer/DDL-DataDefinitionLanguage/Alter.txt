@@ -1,0 +1,2 @@
+ALTER TABLE sink ADD bubbles INTEGER;
+ALTER TABLE sink DROP COLUMN bubbles;

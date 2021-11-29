@@ -3,3 +3,6 @@ BEGIN TRANSACTION
   SET [Nome]='Backend'
   WHERE [Id] = 1
 ROLLBACK / COMMIT
+
+UPDATE [Curso] 
+    SET CategoriaId = 3 WHERE Id = 5 
