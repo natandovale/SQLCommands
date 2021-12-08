@@ -1,0 +1,11 @@
+SELECT * FROM tab X = A OR Y = B  => NOT (X = A OR Y = B) NOT Inverte o resultado da consulta
+(V) OR (V) Verdadeiro
+(V) OR (F) Verdadeiro
+(F) OR (V) Verdadeiro
+(F) OR (F) Falso
+
+SELECT * FROM tab X = A AND Y = B => NOT (X = A AND Y = B) NOT Inverte o resultado da consulta
+(V) AND (V) Falso
+(V) AND (F) Falso
+(F) AND (V) Falso
+(F) AND (F) Verdadeiro
