@@ -1,0 +1,6 @@
+SELECT p.codigo AS Codigo,
+       p.descricao AS Descricao,
+       p.preco AS Preco,
+       tp.Descricao AS Tipo
+FROM produtos AS p, tipo_produto AS tp
+WHERE p.codigo_tipo_produto = tp.codigo;
