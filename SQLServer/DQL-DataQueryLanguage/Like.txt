@@ -12,3 +12,7 @@ WHERE [Nome] LIKE '%A'
 SELECT TOP 100
 FROM [Curso]
 WHERE [Nome] LIKE '%A%'
+
+SELECT * 
+FROM [TABELA]
+WHERE [NOME] LIKE '%Litros%' AND [SABOR] = 'Laranja'
