@@ -9,3 +9,9 @@ SELECT * FROM tab X = A AND Y = B => NOT (X = A AND Y = B) NOT Inverte o resulta
 (V) AND (F) Falso
 (F) AND (V) Falso
 (F) AND (F) Verdadeiro
+
+Ex:
+((NOT (V AND F)) AND (V OR F)) OR F
+((NOT(F)) AND (V) OR F
+(V) OR F
+(V)
