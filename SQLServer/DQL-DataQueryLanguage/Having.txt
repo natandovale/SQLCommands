@@ -1,3 +1,4 @@
+É uma condição(filtro) que se aplica ao resultado de um GROUP BY
 SELECT TOP 100 
     [Categoria].[Id],
     [Categoria].[Nome],
