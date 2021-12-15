@@ -1,4 +1,6 @@
-=>Um "Snapshopt" uma "foto" de uma query
+=>Um "Snapshopt" uma "foto" de uma query, uma tabela lógica, resultado de uma consulta, que pode ser usada depois em
+qualquer outra consulta
+
 CREATE OR ALTER VIEW vwContagemCursoPorCategoria AS
 SELECT TOP 100 
     [Categoria].[Id],
