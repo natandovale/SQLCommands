@@ -1,3 +1,7 @@
+UPDATE <Nome da Tabela> 
+SET <Nome do campo> = <Valor>,...,<Nome do campo>=<Valor>
+WHERE(<Condição>) 
+
 BEGIN TRANSACTION
   UPDATE [Categoria] 
   SET [Nome]='Backend'

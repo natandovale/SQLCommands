@@ -1,7 +1,25 @@
 CREATE DATABASE [Cursos]
 
-USE [Cursos]
+CREATE TABLE <Nome da table>(
+    [<Nome do campo 1><Tipo do campo N><Se é ou não Nulo Campo1>,
+    (...)
+    [<Nome do campo N><Tipo do campo N><Se é ou não Nulo CampoN>,
+    CONSTRAINT <Nome da PK> PRIMARY KEY CLUSTERED (<Campos da PK separados por vírgula)
+)
 
+CREATE DATABASE<NOME DO BANCO DE DADOS>
+ON(NAME = <NOME DO ARQUIVO DE DADOS DO BANCO DE DADOS>,
+   FILENAME = <LOCALIZACO DO ARQUIVO DE DADOS>,
+   SIZE = <TAMANHO INICIAL>,
+   MAXSIZE = <TAMANHO MÁXIMO>,
+   FILEGROWTH = <TAXA DE CRESCIMENTO> )
+LOG ON( NAME = <NOME DO ARQUIVO DE LOGS>,
+        FILENAME = <LOCALIZACAO DO ARQUIVO DE LOGS>,
+        SIZE = <TAMANHO INICIAL>,
+        MAXSIZE = <TAMANHO MÁXIMO>,
+        FILEGROWTH = <TAXA DE CRESCIMENTO>)
+
+USE [Cursos]
 
 CREATE TABLE [Aluno](
     [Id] INT NOT NULl IDENTITY(1,1),
